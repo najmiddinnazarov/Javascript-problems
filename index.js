@@ -131,6 +131,14 @@
 // let newObj = structuredClone(obj);
 // console.log(newObj);
 
+// No 10
+// function obj(key, value) {
+//   const obj = {};
+//   obj[key] = value;
+//   return obj;
+// }
+// console.log(obj("address", "toshkent"));
+
 // No11
 // let obj = {
 //   id: 1,
@@ -166,30 +174,3 @@
 //   }
 // }
 // console.log(obj);
-
-// No13
-// object ichida tugilgan yil,hozirgi yoshi malumotlari keltirilgan. agar yosh togri bolmasa 'xato malumot kiritdingiz' chiqarilsin
-// let nowYear = 2022;
-// let obj = {
-//   id: 1,
-//   name: "Usmon",
-//   age: 32,
-//   year: 1990,
-// };
-// for (const key in obj) {
-//   let newAge = "";
-//   if (key == "year") {
-//     Number((newAge += nowYear - obj[key]));
-//     // if (key == "age") {
-//     //   if (newAge) {
-//     //     console.log(newAge);
-//     //   } else {
-//     //   }
-//     //   // console.log(obj[key]);
-//     // }
-//   }
-//   console.log(newAge);
-// }
-// console.log(newAge);
-// chiqish
-// 'xato malumot kiritdingiz'
