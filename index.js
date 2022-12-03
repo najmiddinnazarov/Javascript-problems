@@ -174,3 +174,50 @@
 //   }
 // }
 // console.log(obj);
+
+// No15
+// obj = {
+//   id: 1,
+//   title: "the best",
+//   address: { street: "Farobiy", number: "34" },
+// };
+// let result = "";
+// for (const key in obj) {
+//   result = typeof obj[key] == "object" || false;
+// }
+// console.log(result);
+
+// No16
+// let person = {
+//   id: 1,
+//   name: "Umar",
+//   surname: "Ismoilov",
+// };
+
+// person["ielts"] = 5.5;
+// console.log(person);
+
+// 2,3,4,5,6-shart
+// for (const key in person) {
+//   if (key == "ielts") {
+//     if (person[key] >= 5.5) {
+//       person["student"] = true;
+//       person["parol"] = Math.trunc(Math.random() * 100);
+//       Object.seal(person);
+//       console.log("Qabul qilindi");
+//     } else {
+//       person["student"] = false;
+//       console.log("Qayta topshirish kerak");
+//     }
+//   }
+// }
+// console.log(person);
+
+// const enterStudend = (parol, name) => {
+//   if (parol == person["parol"] && name == person["name"]) {
+//     return "Hush kelibsiz";
+//   } else {
+//     return "Parol yoki name xato";
+//   }
+// };
+// console.log(enterStudend(86, "Umar"));
