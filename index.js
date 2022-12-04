@@ -106,6 +106,28 @@
 // }
 // console.log(sum);
 
+// No7
+// array berilgan array ning ichida objectlar berilgan. object ichida age berilgan. age ni 18dan katta bolgan objectlarni qaytaring
+// let user = {
+//   id: 1,
+//   name: "Odil",
+//   age: 78,
+//   children: [
+//     {
+//       id: 1,
+//       name: "Umar",
+//       age: 54,
+//       children: [
+//         { id: 1, name: "Asmo", age: 34 },
+//         { id: 2, name: "Osim", age: 30 },
+//         { id: 3, name: "Xattob", age: 25 },
+//       ],
+//     },
+//     { id: 2, name: "Umar", age: 54 },
+//     { id: 3, name: "Umar", age: 54 },
+//   ],
+// }; // Error
+
 // No8
 // let arr = [
 //   { id: 1, name: "Usmon", job: "developer" },
@@ -131,7 +153,7 @@
 // let newObj = structuredClone(obj);
 // console.log(newObj);
 
-// No 10
+// No10
 // function obj(key, value) {
 //   const obj = {};
 //   obj[key] = value;
@@ -175,7 +197,56 @@
 // }
 // console.log(obj);
 
+// No13
+// let obj = {
+//   id: 1,
+//   name: "Usmon",
+//   age: 19,
+//   year: 2006,
+// };
+// let currentYear = 2022;
+// if (currentYear - obj["year"] == obj["age"]) {
+//   console.log("Ma'lumot to'g'ri kiritildi!");
+// } else {
+//   console.log("Ma'lumot xato kiritildi!");
+// }
+
+// No14
+// arr = ["Andijon", "Namangan", "Qarshi", "toshkent"];
+// let student = {
+//   name: "Aziz",
+//   age: 22,
+// };
+// student["regin"] = "Namangan";
+// if (arr.includes(student.regin)) {
+//   console.log("ok");
+// } else {
+//   console.log(
+//     `Bizning filallarimiz faqat shu viloyatlarda => ${arr.join(" ")}`
+//   );
+// }
+
 // No15
+// let arr = [
+//   { id: 4, name: "Salohiddin", parol: "3421" },
+//   { id: 3, name: "Usmon", parol: "1231" },
+//   { id: 1, name: "Umar", parol: "1241" },
+//   { id: 5, name: "Jasur", parol: "3452" },
+//   { id: 2, name: "Asmo", parol: "2312" },
+// ];
+// function logIn(login, parol) {
+//   for (const value of arr) {
+//     if (value["name"] == login && value["parol"] == parol) {
+//       return "Hush kelibsiz";
+//     } else {
+//       return "Login yoki parol xato";
+//     }
+//   }
+// }
+// console.log(logIn("Umar", "2113"));
+// console.log(logIn("Salohiddin", "3421"));
+
+// No16
 // obj = {
 //   id: 1,
 //   title: "the best",
@@ -187,7 +258,7 @@
 // }
 // console.log(result);
 
-// No16
+// No17
 // let person = {
 //   id: 1,
 //   name: "Umar",
