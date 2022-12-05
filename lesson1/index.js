@@ -126,7 +126,7 @@
 //     { id: 2, name: "Umar", age: 54 },
 //     { id: 3, name: "Umar", age: 54 },
 //   ],
-// }; // Error
+// }; // Error // Masala sharti xato!
 
 // No8
 // let arr = [
