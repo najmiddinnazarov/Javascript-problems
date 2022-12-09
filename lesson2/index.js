@@ -122,15 +122,12 @@
 
 // Arrays
 // const avarege = (arr) => {
-//   while (1) {
-//     if (arr.length > 0) {
-//       arr.sort((a, b) => a - b);
-//       let result = arr[arr.length - 1] - arr[arr.length - 2];
-//       arr.splice(arr[arr.length - 1], 2, result);
-//       return arr;
-//     } else {
-//       break;
-//     }
+//   while (arr.length > 1) {
+//     arr.sort((a, b) => a - b);
+//     let result = arr[arr.length - 1] - arr[arr.length - 2];
+//     arr.splice(arr.length - 2, 2);
+//     result ? arr.push(result) : null;
 //   }
+//   return arr;
 // };
-// console.log(avarege([2, 3, 2, 4, 5, 2, 3])); // Error
+// console.log(avarege([2, 3, 2, 4, 5, 2, 3]));
